@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-     "test": "npx ts-node create-account/with-preset.ts"
+     "test": "npx ts-node create-account/with-preset.ts",
+     "tutorial": "npx ts-node tutorial/completed.ts"
   },
   "dependencies": {
     "@zerodev/ecdsa-validator": "^5.1.0",

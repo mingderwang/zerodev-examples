@@ -36,3 +36,16 @@ Follow these steps to get this project up and running on your local machine:
    ```bash
    npx ts-node create-account/with-preset.ts
    ```
+
+   Run tutorial on Mumbai
+
+   ```bash
+➜  zerodev-examples git:(main) ✗ yarn tutorial
+yarn run v1.22.21
+$ npx ts-node tutorial/completed.ts
+My account: 0xB09b0cD91c70F08019F90566b9bd150Eb982A89C
+Submitted UserOp: 0xe6ad530fea68271e94b45bb4cbff06bd4e40e1a8614e3a07117750de9a81fbec
+UserOp confirmed: 0xe6ad530fea68271e94b45bb4cbff06bd4e40e1a8614e3a07117750de9a81fbec
+NFT balance: 1
+✨  Done in 28.34s.
+```
