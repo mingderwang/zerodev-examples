@@ -2,7 +2,7 @@ import "dotenv/config"
 import { createEcdsaKernelAccountClient } from "@zerodev/presets/zerodev"
 import { Hex, zeroAddress } from "viem"
 import { privateKeyToAccount } from "viem/accounts"
-import { polygonMumbai } from "viem/chains"
+import { sepolia } from "viem/chains"
 
 const zeroDevProjectId = process.env.ZERODEV_PROJECT_ID
 const privateKey = process.env.PRIVATE_KEY
@@ -15,7 +15,7 @@ const signer = privateKeyToAccount(privateKey as Hex)
 const main = async () => {
   const kernelClient = await createEcdsaKernelAccountClient({
     // required
-    chain: polygonMumbai,
+    chain: sepolia,
     projectId: zeroDevProjectId,
     signer,
 
